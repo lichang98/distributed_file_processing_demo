@@ -6,3 +6,8 @@ In this project, user client GUI is based on GTK，the communication is realized
 The general structure is just the below picture shows.
 
 ![结构](./struct.png)
+
+## Functional Demo
+
+As shown below, the client chooses a plain text file written in english, and request for Caesae cipher. The server will receieve the request and distribute the task onto multi slave node and send back the result.
+![演示](./show.gif)
